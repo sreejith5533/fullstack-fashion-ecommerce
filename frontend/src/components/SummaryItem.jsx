@@ -1,4 +1,4 @@
-import "../styles/SummaryItem.css";
+import "../styles/summaryItem.css";
 import { useCart } from "../context/CartContext";
 function SummaryItem() {
   const { cartItems } = useCart();
