@@ -56,10 +56,7 @@ MIDDLEWARE = [
 
 
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
-    'https://fullstack-fashion-ecommerce.onrender.com'
-]
+CORS_ALLOW_ALL_ORIGINS = True
 
 ROOT_URLCONF = 'config.urls'
 
