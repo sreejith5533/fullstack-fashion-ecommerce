@@ -1,4 +1,4 @@
-import '../styles/About.css';
+import '../styles/about.css';
 import AboutHero from "../components/AboutHero";
 import AbouytStory from "../components/AboutStory";
 import MissionVision from "../components/MissionVission";

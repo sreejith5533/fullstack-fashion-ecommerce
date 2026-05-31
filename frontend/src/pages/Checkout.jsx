@@ -2,7 +2,7 @@ import "../styles/checkout.css";
 
 import ShoppingForm from "../components/ShoppingForm";
 import Payment from "../components/Payement";
-import CheckOutSummary from "../components/CheckOutSummary";
+import CheckOutSummary from "../components/CheckoutSummary";
 
 function Checkout() {
   return (

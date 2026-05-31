@@ -1,4 +1,4 @@
-import "../styles/OrderSuccess.css";
+import "../styles/ordersuccess.css";
 import { generateOrderNumber, getDeliveryDate } from "../utils/orderUtils";
 import { useState } from "react";
 
