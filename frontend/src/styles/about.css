@@ -1,0 +1,230 @@
+.about-page {
+  background: #e8e8e8;
+  padding: 20px;
+}
+
+.content-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100% !important;
+  justify-content: center;
+  padding: 30px;
+}
+
+.content-text {
+  color: #5c5f60;
+  text-align: justify;
+}
+
+.about-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-img {
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  object-fit: cover;
+}
+
+.about-row , .story-row{
+  padding: 20px;
+}
+
+.about-heading {
+  width: 100%;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.abt-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+
+.s-heading{
+  text-decoration: underline;
+}
+
+
+
+.s-text{
+  color: #5C5F60;
+  text-align: justify;
+  padding: 5px;
+}
+
+
+.mission-vision{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #F3F3F4;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.mv-heading{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.rocket-box, .eye-box{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+
+.rocket-box i , .eye-box i{
+  color: #fff !important;
+  font-size: 18px;
+}
+
+.vision-text , .mission-text {
+  color: #5C5F60;
+  text-align: justify;
+  padding: 5px;
+}
+
+.rocket-div h5, .eye-div h5{
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+
+.rocket-div , .eye-div{
+  border: 1px solid #E8E8E8;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 20px;
+}
+
+
+.status-div{
+  text-align: center;
+  border: 1px solid #E8E8E8;
+  padding: 10px;
+  background: #ffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.status-row{
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 8px;
+  
+}
+
+
+
+.status-div h4{
+  margin-bottom: 0;
+}
+
+
+.why-choose-us{
+  padding: 20px;
+}
+
+
+.why-heading{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.info-div{
+  border: 1px solid #E8E8E8;
+  border-radius: 8px;
+  padding: 24px;
+  background: #ffff;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.info-div h5{
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.info-text{
+  color: #5C5F60;
+  text-align: justify;
+  padding: 5px;
+}
+
+
+
+.customer-img{
+  width: 100%;
+  max-width: 220px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px
+}
+
+
+.team-text{
+  color: #5C5F60;
+}
+
+
+.team-div{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.team-div h5, .team-div p{
+  margin-bottom: 0;
+}
+
+
+.customer-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.customer-name{
+  margin-bottom: 0;
+}
+
+.customer-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: #F3F3F4;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width:600px) {
+  .content-div{
+    padding: 0;
+  }
+
+
+  .s-heading{
+    margin-top: 10px;
+  }
+}

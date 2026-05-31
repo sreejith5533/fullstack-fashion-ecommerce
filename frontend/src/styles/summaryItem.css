@@ -1,0 +1,43 @@
+.product-img{
+  width: 100px;
+  object-fit: cover;
+  background: red;
+  border-radius: 4px;
+}
+
+.product-price{
+  color: black !important;
+}
+
+.qty-text , .quantity{
+  color: #5C5F60;
+  margin-bottom: 0;
+}
+
+
+.summary-item-checkout{
+  background: #ffff;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 0.5px solid lightslategray;
+}
+
+
+.product-name{
+  margin-bottom: 0;
+}
+
+.product-detail{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+}
+
+
+.name-detail{
+  flex: 1;
+}

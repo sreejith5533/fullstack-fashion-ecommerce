@@ -1,0 +1,46 @@
+.payment-div{
+  background: #ffff;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.heading-pay{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.heading-pay h4{
+  margin-bottom: 0;
+}
+
+
+.credit-card{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: fit-content;
+  border: 1px solid #4f46e5;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.credit-card p , .paypal p{
+  margin-bottom: 0;
+}
+
+.paypal{
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  border: 1px solid #4f46e5;
+  padding: 10px;
+  border-radius: 10px;
+  gap: 5px;
+}
+
+.payment-row{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-evenly;
+}

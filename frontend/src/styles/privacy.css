@@ -1,0 +1,51 @@
+.privacy-heading h3,
+.privacy-heading p {
+  margin-bottom: 0;
+}
+
+.information-collection,
+.thirdparty-services,
+.cookies,
+.user-data-protection,
+.payment-security {
+  padding: 20px;
+  background: #2C3947;
+  color: #E8EDF2;
+}
+
+.heading-div {
+  margin-bottom: 10px;
+}
+
+.text {
+  font-size: 16px;
+  color: #E8EDF2;
+  text-align: justify;
+}
+
+.table-contents {
+  padding: 20px;
+  background: #2C3947;
+  color: #E8EDF2;
+}
+
+.table-contents-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.table-contents-list li a {
+  text-decoration: none;
+  color: #E8EDF2;
+  font-size: 16px;
+}
+
+.table-contents-list li a.active {
+  color: #E8EDF2;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.table-contents-list li a:hover {
+  color: #4f46e5;
+}

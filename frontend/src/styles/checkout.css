@@ -1,0 +1,30 @@
+.chekout-heading{
+  text-align: left;
+  margin-top: 20px;
+}
+
+.heading{
+  margin-bottom: 0;
+}
+
+.amount-row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.amount-row p{
+  margin-bottom: 0;
+}
+
+
+.amount-heading{
+  color: #5C5F60;
+  
+}
+
+
+.t-amount{
+  color: #4648D4;
+  font-weight: 700;
+}

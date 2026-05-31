@@ -1,0 +1,130 @@
+.product-card {
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.product-card:hover{
+  transform: translateY(-6px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+
+.product-badge{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #4f46e5;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+
+.product-card-image{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  padding: 12px;
+  transition: transform 0.3s ease;
+  border-radius: 16px;
+
+}
+
+.product-card-image:hover{
+  transform: scale(1.05);
+  
+
+}
+
+
+.card-title{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card-text{
+  font-size: 14px;
+  color: #555;
+  text-align: justify;
+}
+
+
+.rating{
+  color: #f59e0b;
+  font-size: 20px;
+}
+
+.rating span{
+  color: #777;
+}
+
+
+.product-price{
+  font-size: 20px;
+  font-weight: 600;
+  color: #4f46e5;
+}
+
+.price{
+  flex: 1;
+  color: #065F46 !important;
+}
+
+.product-name{
+  font-size: 22px;
+  color: #555;
+}
+
+
+.card-body-div{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.view-details-btn{
+  background: #fff;
+  font-size: 16px;
+  margin-bottom: 0;
+  border-radius: 18px;
+  border: 1px solid #000;
+  color: #000;
+}
+
+
+.add-to-cart-btn{
+  background: #4f46e5;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 0;
+  border: 1px solid #f5f5fc;
+  border-radius: 18px;
+}
+
+
+.product-title{
+   font-family: "Playfair Display", serif;
+}
+
+
+.product-title{
+  font-family: "Playfair Display", serif;
+}
+
+
+.product-description{
+  font-family: "Playfair Display", serif;
+  margin-bottom: 0;
+}
+
+

@@ -1,0 +1,159 @@
+.heading-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-text {
+  max-width: 588px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  color: #5c5f60;
+}
+
+.get-text {
+  font-size: 12px;
+  color: #5c5f60;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.contact-email,
+.contact-call-div,
+.visit-us {
+  background: #2c3947;
+  color: #e8edf2;
+  padding: 25px;
+  border-radius: 12px;
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.email-div h5,
+.email-div p,
+.contact-div p,
+.visit-div p {
+  margin-bottom: 0;
+}
+
+.send-btn {
+  background: #000;
+  color: #ffff;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.send-btn:hover {
+  background: #000;
+  color: #ffff;
+}
+
+.contact-form-div {
+  background: #2c3947;
+  padding: 25px;
+  border-radius: 12px;
+  color: #e8edf2;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.input {
+  background: #f3f3f4;
+}
+
+#message {
+  height: 150px;
+  resize: vertical;
+}
+
+.input::placeholder {
+  color: #6b7280 !important;
+  font-size: 16px;
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+}
+
+.faq-heading-div {
+  text-align: center;
+}
+
+.faq-heading-div p {
+  margin-bottom: 0;
+  font-size: 12px;
+  color: #5c5f60;
+  font-weight: 600;
+}
+
+.accordion-button {
+   background: #2D3748;
+    color: #FFFFFF;
+}
+
+.accordion-button:not(.collapsed) {
+  background: #111827;
+  color: #f9fafb;
+}
+
+.accordion{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.accordion-item{
+  margin-bottom: 10px !important;
+}
+
+
+.map-div{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map-div iframe{
+  max-width: 1000px;
+  width: 100%;
+}
+
+.accordion-body {
+   background: #EDF2F7;
+    color: #2D3748;
+}
+
+.chat-btn {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background: #4f46e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  animation: popUp 2s infinite ease-in-out;
+}
+
+.chat-btn i {
+  color: #ffff;
+  font-size: 17px;
+}
+
+@keyframes popUp {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

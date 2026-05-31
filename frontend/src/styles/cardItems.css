@@ -1,0 +1,33 @@
+.cart-img{
+  height: 90px;
+  width: 90px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+
+.cart-detail{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100% ;
+}
+
+
+.cart-info{
+  flex: 1;
+  margin-left: 10px;
+}
+
+
+.product-detail-price{
+  color: #065F46 !important;
+  margin-bottom: 0;
+}
+
+
+@media (max-width:600px) {
+  .cart-detail{
+    flex-direction: column;
+  }
+}
